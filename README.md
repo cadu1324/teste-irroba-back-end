@@ -108,6 +108,7 @@ Collection do Postman - Teste Irroba
 ## 🛠 Tecnologias utilizadas
 
 - **Node.js**
+- **Python**
 - **Express**
 - **Sequelize**
 - **PostgreSQL**
