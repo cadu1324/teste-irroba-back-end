@@ -13,6 +13,7 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 - [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/) para gerenciamento de pacotes.
 - [Docker](https://www.docker.com/) (opcional, caso prefira usar um banco de dados containerizado).
 - Um banco de dados PostgreSQL.
+- Python (v3.8 ou superior)
 
 ---
 
@@ -45,8 +46,22 @@ Depois, execute as migrações e seeders para criar e popular as tabelas:
 npx sequelize db:migrate
 npx sequelize db:seed:all
 ```
+### 4. Configuração do Python
 
-### 4. Inicie o servidor
+#### Instalando dependências do Python
+
+O projeto também inclui scripts Python para tarefas adicionais. Certifique-se de instalar as dependências executando:
+
+```bash
+pip install -r requirements.txt
+```
+
+#### Configurando as variáveis de ambiente do Python
+
+Certifique-se de configurar as variáveis de ambiente adequadas no arquivo `.env` ou diretamente no sistema, caso necessário para os scripts Python.
+
+
+### 5. Inicie o servidor
 Para iniciar o servidor, use o comando:
 
 ```bash
@@ -68,6 +83,12 @@ npm test
 Isso executará os testes unitários e gerará relatórios de cobertura no diretório `coverage/`.
 
 ---
+
+Testando a API
+Collection do Postman
+Utilize a Collection do Postman para testar os endpoints da API. Você pode importar a collection usando o link abaixo:
+
+Collection do Postman - Teste Irroba
 
 ## 📂 Estrutura do projeto
 
