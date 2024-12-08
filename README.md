@@ -89,6 +89,7 @@ Collection do Postman
 Utilize a Collection do Postman para testar os endpoints da API. Você pode importar a collection usando o link abaixo:
 
 Collection do Postman - Teste Irroba
+https://zucgg-collection.postman.co/workspace/teste-irroba-carlos~b5b909ed-f5ab-49cf-ba96-c44664bc52a5/collection/16164207-0f960d16-a019-4701-b649-127533619aef?action=share&creator=16164207
 
 ## 📂 Estrutura do projeto
 
